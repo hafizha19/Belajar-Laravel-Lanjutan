@@ -15,30 +15,6 @@ include "./fight.php";
             $this->defencePower = 8;
         }
 
-        public function setNama($nama){
-            $this->nama = $nama;
-        }
-
-        public function getNama(){
-            return $this->nama;
-        }
-
-        public function setDarah($darah){
-            $this->darah = $darah;
-        }
-
-        public function getDarah(){
-            return $this->darah;
-        }
-
-        public function getAttackPower(){
-            return $this->attackPower;
-        }
-
-        public function getDefencePower(){
-            return $this->defencePower;
-        }
-
         public function getInfoHewan(){
             echo "Nama: " . $this->nama . "<br>" 
                 . "Darah: " . $this->darah . "<br>"
@@ -60,30 +36,6 @@ include "./fight.php";
             $this->keahlian = "terbang tinggi";
             $this->attackPower = 10;
             $this->defencePower = 5;
-        }
-
-        public function setNama($nama){
-            $this->nama = $nama;
-        }
-
-        public function getNama(){
-            return $this->nama;
-        }
-
-        public function setDarah($darah){
-            $this->darah = $darah;
-        }
-
-        public function getDarah(){
-            return $this->darah;
-        }
-
-        public function getAttackPower(){
-            return $this->attackPower;
-        }
-
-        public function getDefencePower(){
-            return $this->defencePower;
         }
 
         public function getInfoHewan(){

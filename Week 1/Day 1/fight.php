@@ -7,6 +7,14 @@
         private $attackPower;
         private $defencePower;
 
+        public function getAttackPower(){
+            return $this->attackPower;
+        }
+
+        public function getDefencePower(){
+            return $this->defencePower;
+        }
+
         public function serang($korban){
             echo $this->nama . " sedang menyerang " . $korban->getNama();
             

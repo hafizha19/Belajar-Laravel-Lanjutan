@@ -16,5 +16,5 @@ $elang_1->getInfoHewan();
 echo "<br>";
 
 // $harimau_1->serang($elang_1);
-$harimau_1->diserang();
-// $elang_1->diserang();
+// $harimau_1->diserang();
+$elang_1->diserang();
